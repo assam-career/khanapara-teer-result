@@ -1,3 +1,18 @@
-// Add one result per line: "DD Month YYYY|FR|SR". Newest first or any order.
+// Roz ek nayi line jodein (kisi bhi jagah, order se farak nahi padta). Format: DD-MM-YYYY|FR|SR
 var DATA=`
+05-11-2026|17|71
+04-11-2026|82|85
+03-11-2026|44|97
+02-11-2026|30|81
+31-10-2026|28|82
+30-10-2026|99|45
+29-10-2026|44|38
+28-10-2026|63|29
+27-10-2026|01|64
+26-10-2026|62|38
+24-10-2026|97|21
+23-10-2026|31|42
+22-10-2026|94|19
+21-10-2026|31|62
+20-10-2026|31|62
 `.trim().split("\n").filter(Boolean);
