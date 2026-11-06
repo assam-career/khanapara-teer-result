@@ -31,3 +31,8 @@ button{background:var(--r);color:#fff;border:0;border-radius:8px;padding:11px 20
 .toc{background:rgba(127,127,127,.07);border-radius:10px;padding:10px 16px;font-size:15px}.toc a{text-decoration:none}.toc ol{margin:6px 0;padding-left:20px}
 .faq details{border:1px solid var(--b);border-radius:10px;padding:0 14px;margin:8px 0}.faq summary{padding:12px 0}.faq details p{margin:0 0 12px}
 .todaybox{border-left:4px solid var(--r);background:rgba(216,27,44,.06);padding:10px 14px;border-radius:0 8px 8px 0;margin:12px 0}
+.rt{overflow-x:auto;margin:6px 0 4px}.rt table{border-collapse:separate;border-spacing:0;font-size:15px}
+.rt th{background:#dc2626;color:#fff;font-size:13px;text-transform:none;padding:12px 10px;text-align:right}.rt th:first-child{border-radius:10px 0 0 10px;text-align:left}.rt th:last-child{border-radius:0 10px 10px 0}
+.rt td{padding:12px 10px;text-align:right;border-bottom:1px solid var(--b);font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:700}
+.rt td:first-child{text-align:left;font-family:inherit;font-weight:600;color:var(--m)}.rt tbody tr:nth-child(odd) td{background:rgba(220,38,38,.05)}
+h1.rh{margin-top:0}
